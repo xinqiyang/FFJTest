@@ -1,0 +1,73 @@
+runtestcase:
+  testfileget
+  
+serverp: 
+  https://172.17.1.207:55445
+servera: 
+  https://172.17.1.207:9443
+
+
+testfileget:
+  kigyo: agdxbv
+  user:  test001
+  pwd:  1
+  x-device-id: dc0553c7a11152e8f75eaf58fa5f06f0f1cf
+  requestID: dc05bfb80f1926ab07ac343e6f401842cb36
+  sharedfolder:  shared
+  kiyomulti: agdxbv,absids
+  kiyomultiuser: test001,test002
+  tests: UTFileGetLog
+
+
+
+testfilelock:
+  kigyo: k008
+  user:  test001
+  pwd:  1
+  x-device-id: 1e41d199946a46c131f5430f01a1b3f5
+  requestID: dc05bfb80f1926ab07ac343e6f401842cb36
+  sharedfolder:  sss
+  kiyomulti: agdxbv,absids
+  kiyomultiuser: test001,test002
+  tests: UTFileLock
+
+testupdate:
+  kigyo: agdxbv
+  user:  test001
+  pwd:  1
+  x-device-id: 1e41d199946a46c131f5430f01a1b3f5
+  requestID: dc05bfb80f1926ab07ac343e6f401842cb36
+  sharedfolder:  shared
+  kiyomulti: agdxbv,absids
+  kiyomultiuser: test001,test002
+  tests: UTFileLock
+
+testdeviceid:
+  kigyo: agdxbv
+  user:  test001
+  pwd:  1
+  x-device-id: 
+  requestID: dc05bfb80f1926ab07ac343e6f401842cb36
+  sharedfolder:  shared
+  kiyomulti: agdxbv,absids
+  kiyomultiuser: test001,test002
+  tests: UTDeviceID
+
+
+testfull:
+  kigyo: agdxbv
+  user:  test001
+  pwd:  1
+  kiyomulti: agsidi,absids
+  kiyomultiuser: test001,test002
+  tests:  UpdateFile,GetFolder
+
+filepath: ./files
+files:  255k.bin,256k.bin,257k.bin,1023k.bin,1m.bin,1.1m.bin,100m.bin,101m.bin,11g.bin,かわぐち
+texts:  file1.txt,file2.txt,file3.txt
+uptype: 0,1,2
+
+
+
+
+

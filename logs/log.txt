@@ -1,0 +1,7 @@
+2013-09-09 22:34:25,043 INFO  [main] DynamicSuite (DynamicSuite.java:28) <clinit> - ================== init env end ====================
+2013-09-09 22:34:25,055 INFO  [main] DynamicSuite (DynamicSuite.java:65) findTestClass - Load TestCase:
+2013-09-09 22:34:25,056 INFO  [main] DynamicSuite (DynamicSuite.java:67) findTestClass - FFJTest.tests.UTAccount
+2013-09-09 22:34:25,070 INFO  [main] DynamicSuite (DynamicSuite.java:67) findTestClass - FFJTest.tests.UTVersion
+2013-09-09 22:34:26,302 INFO  [main] UTAccount (UTAccount.java:50) testPOSTSignup - 1 second:0
+2013-09-09 22:34:26,303 INFO  [main] UTAccount (UTAccount.java:54) testPOSTSignup - {body="signup ok", bodystream=org.apache.http.conn.EofSensorInputStream@668b764, code=200, header={Vary=Accept-Encoding, Transfer-Encoding=chunked, Date=Mon, 09 Sep 2013 13:34:23 GMT, Connection=keep-alive, Content-Type=application/json, Server=ngx_openresty}}
+2013-09-09 22:34:26,353 INFO  [main] UTVersion (UTVersion.java:54) testGetVersion - {body={"version":"1.0.0","web":"1.0.1","mis":"1.0.0","icon":".\/images\/icon.png","android":"1.0.2","url":"http:\/\/www.freeflare.com","logo":".\/images\/logo.png","name":"freeflare","iphone":"1.0.1"}, bodystream=org.apache.http.conn.EofSensorInputStream@33264c47, code=200, header={Vary=Accept-Encoding, Transfer-Encoding=chunked, Date=Mon, 09 Sep 2013 13:34:23 GMT, Connection=keep-alive, Content-Type=application/json, Server=ngx_openresty}}
